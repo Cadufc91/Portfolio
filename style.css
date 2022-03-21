@@ -434,7 +434,6 @@ main{
     }
 
     #home .image::before{
-        width: 45%;
         left: 38%;
     }
 
