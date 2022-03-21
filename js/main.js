@@ -15,6 +15,13 @@ for (const link of links){
     })
 }
 
+var typed = new Typed(".typing", {
+    strings:["Web Developer", "FrontEnd Developer", "Freelancer"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+});
+
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
